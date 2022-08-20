@@ -1,3 +1,17 @@
+# Install chrome 
+```
+npm install
+
+npm run build:prod
+
+//note: if happend
+npm install --save-dev <package name>
+```
+
+Then you just open chrome://extensions, check the Developer Mode toggle on, and click Load Unpacked.
+
+Navigate to <your repo>/dist/chrome/ and use that folder as the unpacked extension.
+
 # Surfingkeys - Expand your browser with javascript and keyboard.
 
 [![Node CI](https://github.com/brookhong/Surfingkeys/workflows/Node%20CI/badge.svg?branch=master)](https://github.com/brookhong/Surfingkeys/actions?query=workflow%3A%22Node+CI%22+branch%3Amaster)
